@@ -1,0 +1,81 @@
+ h1 {
+
+   font-size: 150%;
+
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#button1 {
+
+  size: 50px;
+  background-color: pink;
+
+}
+
+#button2 {
+
+  size: 50px;
+  background-color: lightsalmon;
+
+}
+
+#button3 {
+
+  size: 50px;
+  background-color: rgb(255, 255, 189);
+
+}
+
+#button4 {
+
+  size: 50px;
+  background-color: lightgreen;
+
+}
+#button5 {
+
+  size: 50px;
+  background-color: lightskyblue;
+
+}
+
+#logo {
+
+  height: auto;
+  width: 15%;
+  position: absolute;
+  bottom: 0;
+}
+#logo2 {
+
+  height: auto;
+  width: 10%;
+  position: absolute;
+  bottom: 0;
+}
+
+#firstproduct {
+
+  height: auto;
+  width: 50%;
+  padding: 2%;
+  padding-bottom: 0%;
+}
+
+#description {
+  margin-left: 5%;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+#insidediv{
+  display: inline-block;
+  width: 50%;
+  padding: 0%;
+  align-items: center;
+}
