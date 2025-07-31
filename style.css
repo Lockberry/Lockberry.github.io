@@ -5,8 +5,6 @@
 }
 
 body{
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
@@ -42,6 +40,14 @@ body{
   size: 50px;
   background-color: lightskyblue;
 
+}#buttonbuy {
+
+  height: 50px;
+  width: 200px;
+  background-color: pink;
+  border-radius: 25%;
+  font-size:15px;
+  font-weight: bold;
 }
 
 #logo {
@@ -66,6 +72,23 @@ body{
   padding: 2%;
   padding-bottom: 0%;
 }
+#print2 {
+  height: 90%;
+  width: 100%;
+  padding: 2%;
+  padding-bottom: 0%;
+  border-radius: 50px
+
+}
+
+#product2 {
+  height: auto;
+  width: 50%;
+  padding: 2%;
+  padding-bottom: 0%;
+  border-radius: 50px;
+
+}
 
 #description {
   margin-left: 5%;
@@ -77,5 +100,27 @@ body{
   display: inline-block;
   width: 50%;
   padding: 0%;
+  align-items: center;
+}
+
+#item{
+  background-color: white;
+  display: flex;
+  width: 20%;
+  height: 70%;
+  border-radius: 30px;
+  margin-top: 5%;
+  flex-direction: column;
+}
+
+#frog {
+  background-color: white;
+  margin-left: 5%;
+
+}
+
+#outside {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
